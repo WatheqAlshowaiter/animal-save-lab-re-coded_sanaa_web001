@@ -10,4 +10,8 @@ html {
 
 /* Write your solution here */
 
-transform: rotate(0.7turn);
+@media only screen and (min-width: 1269px) {
+  #bear{ 
+    transform: translate(-200px, 0 );
+  }
+}
